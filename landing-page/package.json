@@ -1,0 +1,21 @@
+{
+  "name": "flowbase-landing-page",
+  "version": "1.0.0",
+  "description": "Responsive landing page based on Flowbase Figma design using HTML and CSS.",
+  "scripts": {
+    "start": "live-server --open=./index.html --port=8080"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "keywords": [
+    "landing-page",
+    "responsive",
+    "html",
+    "css",
+    "flowbase",
+    "figma"
+  ],
+  "author": "Flowbase Landing Page Generator",
+  "license": "MIT"
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Modern responsive landing page created from Figma design using HTML and CSS." />
+    <title>Flowbase - Minimalist Landing Page</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2921/2921822.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <nav aria-label="Primary Navigation" class="nav-container">
+            <a href="#" class="logo" aria-label="Flowbase Logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/2921/2921822.png" alt="Flowbase Logo" width="40" height="40" />
+                <span>Flowbase</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#clients" class="nav-link">Clients</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#try" class="btn btn-primary">Try for free</a>
+                <a href="#signin" class="btn btn-secondary">Sign in</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Menu">
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-label="Hero section">
+            <div class="hero-content">
+                <h1>Build your landing page in minutes with Flowbase</h1>
+                <p>Create beautiful, responsive landing pages fast with our minimalist templates and powerful tools.</p>
+                <div class="hero-cta">
+                    <a href="#try" class="btn btn-primary btn-large">Try for free</a>
+                    <a href="#learn" class="btn btn-secondary btn-large">Learn more</a>
+                </div>
+            </div>
+            <div class="hero-image" aria-hidden="true">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="" />
+            </div>
+        </section>
+
+        <section id="features" class="features" aria-label="Features section">
+            <h2>Powerful features to boost your workflow</h2>
+            <div class="features-grid">
+                <article class="feature" tabindex="0">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2913/2913461.png" alt="Easy Customization Icon" width="64" height="64" />
+                    <h3>Easy Customization</h3>
+                    <p>Customize every element effortlessly with our intuitive drag and drop interface.</p>
+                </article>
+                <article class="feature" tabindex="0">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2921/2921827.png" alt="Responsive Design Icon" width="64" height="64" />
+                    <h3>Responsive Design</h3>
+                    <p>Landing pages look perfect on all devices, adapting seamlessly to any screen size.</p>
+                </article>
+                <article class="feature" tabindex="0">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2913/2913465.png" alt="SEO Optimized Icon" width="64" height="64" />
+                    <h3>SEO Optimized</h3>
+                    <p>Boost your search rankings with pages built with SEO best practices in mind.</p>
+                </article>
+                <article class="feature" tabindex="0">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2921/2921816.png" alt="Fast Performance Icon" width="64" height="64" />
+                    <h3>Fast Performance</h3>
+                    <p>Optimized for speed, ensuring your landing pages load quickly and smoothly.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="clients" class="clients" aria-label="Clients logos">
+            <h2>Trusted by top companies</h2>
+            <div class="client-logos" role="list">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix logo" width="120" height="40" role="listitem" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft logo" width="120" height="40" role="listitem" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google.svg" alt="Google logo" width="120" height="40" role="listitem" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple logo" width="120" height="40" role="listitem" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Tesla_Motors.svg" alt="Tesla logo" width="120" height="40" role="listitem" />
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing" aria-label="Pricing plans">
+            <h2>Simple pricing for everyone</h2>
+            <div class="pricing-grid">
+                <article class="plan" tabindex="0" aria-label="Free plan">
+                    <h3>Free</h3>
+                    <p class="price">$0 <span>/ month</span></p>
+                    <ul>
+                        <li>1 Landing page</li>
+                        <li>Basic customization</li>
+                        <li>Email support</li>
+                    </ul>
+                    <a href="#try" class="btn btn-outline">Get started</a>
+                </article>
+                <article class="plan" tabindex="0" aria-label="Pro plan">
+                    <h3>Pro</h3>
+                    <p class="price">$29 <span>/ month</span></p>
+                    <ul>
+                        <li>Unlimited landing pages</li>
+                        <li>Advanced customization</li>
+                        <li>Priority email support</li>
+                    </ul>
+                    <a href="#try" class="btn btn-primary">Get started</a>
+                </article>
+                <article class="plan" tabindex="0" aria-label="Business plan">
+                    <h3>Business</h3>
+                    <p class="price">$99 <span>/ month</span></p>
+                    <ul>
+                        <li>Unlimited landing pages</li>
+                        <li>Team collaboration</li>
+                        <li>Phone & email support</li>
+                    </ul>
+                    <a href="#try" class="btn btn-outline">Contact us</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact" aria-label="Contact us">
+            <h2>Get in touch</h2>
+            <form action="#" method="post" novalidate>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required aria-required="true" placeholder="Your full name" />
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required aria-required="true" placeholder="you@example.com" />
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Your message here"></textarea>
+                
+                <button type="submit" class="btn btn-primary">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>&copy; 2024 Flowbase. All rights reserved.</p>
+                <p>123 Startup Ave, Silicon Valley, CA</p>
+                <p><a href="mailto:support@flowbase.com">support@flowbase.com</a> | <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+            <div class="footer-social" aria-label="Social media links">
+                <a href="https://www.facebook.com/flowbase" target="_blank" rel="noopener" aria-label="Facebook">
+                    <svg width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.596 0 0 .593 0 1.325v21.351C0 23.406.596 24 1.325 24H12.82v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.312h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.324-.594 1.324-1.324V1.325C24 .593 23.404 0 22.675 0z"/></svg>
+                </a>
+                <a href="https://twitter.com/flowbase" target="_blank" rel="noopener" aria-label="Twitter">
+                    <svg width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.609 1.794-1.574 2.163-2.723-.949.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.72 0-4.924 2.204-4.924 4.924 0 .39.045.765.127 1.124-4.09-.205-7.719-2.165-10.148-5.144-.423.724-.666 1.562-.666 2.462 0 1.7.866 3.205 2.183 4.088-.802-.025-1.56-.246-2.228-.616v.062c0 2.375 1.69 4.353 3.933 4.802-.411.111-.844.171-1.292.171-.316 0-.623-.031-.922-.089.624 1.947 2.438 3.364 4.584 3.405-1.68 1.318-3.808 2.104-6.115 2.104-.397 0-.79-.023-1.175-.069 2.179 1.397 4.768 2.212 7.548 2.212 9.054 0 14-7.496 14-13.986 0-.21-.005-.423-.015-.633.962-.695 1.8-1.562 2.46-2.549z"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/company/flowbase" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M22.23 0H1.77C.792 0 0 .774 0 1.728v20.544C0 23.226.792 24 1.77 24h20.46C23.208 24 24 23.226 24 22.272V1.728C24 .774 23.208 0 22.23 0zM7.12 20.452H3.56v-11.7h3.56v11.7zm-1.78-13.35a2.07 2.07 0 01-2.07-2.07 2.07 2.07 0 112.07 2.07zM20.452 20.452h-3.56v-5.63c0-1.343-.027-3.07-1.87-3.07-1.87 0-2.156 1.46-2.156 2.967v5.733h-3.56v-11.7h3.42v1.6h.05c.48-.91 1.66-1.87 3.42-1.87 3.66 0 4.33 2.41 4.33 5.54v6.43z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.querySelector(".mobile-menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        menuToggle.addEventListener("click", () => {
+            const expanded = menuToggle.getAttribute("aria-expanded") === "true" || false;
+            menuToggle.setAttribute("aria-expanded", !expanded);
+            navLinks.classList.toggle("nav-open");
+        });
+
+        // Close mobile menu on link click (for better UX)
+        document.querySelectorAll(".nav-links a").forEach(link => {
+            link.addEventListener("click", () => {
+                if (navLinks.classList.contains("nav-open")) {
+                    navLinks.classList.remove("nav-open");
+                    menuToggle.setAttribute("aria-expanded", false);
+                }
+            });
+        });
+
+        // Basic form validation and feedback
+        const form = document.querySelector("form");
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const name = form.name.value.trim();
+            const email = form.email.value.trim();
+            const message = form.message.value.trim();
+            if (!name || !email || !message) {
+                alert("Please fill out all required fields.");
+                return;
+            }
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                alert("Please enter a valid email address.");
+                return;
+            }
+            alert("Thank you for reaching out! We will respond shortly.");
+            form.reset();
+        });
+    </script>
+</body>
+</html>
